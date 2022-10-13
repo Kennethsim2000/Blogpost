@@ -1,5 +1,6 @@
 import React, { Fragment, useState } from "react";
 
+/*Contains input textbox. */
 const InputTodo = () => {
     const [description, setDescription] = useState("");
 
