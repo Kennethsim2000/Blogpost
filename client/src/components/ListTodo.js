@@ -2,6 +2,7 @@ import React, { Fragment, useEffect, useState } from "react";
 
 import EditTodo from "./EditTodo";
 
+/*Contains the remaining list as well as EditToDo(button) and a delete button */
 const ListTodos = () => {
     const [todos, setTodos] = useState([]);
 
