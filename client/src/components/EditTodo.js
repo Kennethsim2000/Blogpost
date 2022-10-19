@@ -1,8 +1,9 @@
 import React, { Fragment, useState } from "react";
 import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
+import "./edit.css"
 
-/*EditTodo is rendered in the ListTodo class */
+/*EditTodo is rendered as the edit icon in Post */
 const EditTodo = ({ todo }) => {
   const [show, setShow] = useState(false);
   const [description, setDescription] = useState(todo.description);
@@ -33,9 +34,8 @@ const EditTodo = ({ todo }) => {
   }
     return (
         <Fragment>
-            <Button variant="warning" onClick={handleShow}>
-                Edit
-            </Button>
+            <i className="editIcon fa-solid fa-pen-to-square" onClick={handleShow}></i>
+      
 
             <Modal show={show} onHide={handleClose}>
                 <Modal.Header closeButton>

@@ -22,7 +22,7 @@
 /*Styles the category of the blog */
 .postCat {
     font-family: "Varela Round", sans-serif;
-    font-size:11px;
+    font-size:15px;
     color:#be9656;
     line-height:20px;
     margin-top:15px;
@@ -63,3 +63,8 @@
     -webkit-box-orient:vertical; */
 }
 
+/*Styles the trash icon */
+.trashIcon{
+    font-size:1.3rem;
+    cursor:pointer;
+}
