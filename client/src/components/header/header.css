@@ -1,0 +1,34 @@
+
+.header{
+    margin-top:60px;
+}
+
+/*This style the two titles together */
+.headerTitles{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    font-family: 'Lora', serif;
+    color: #444;
+}
+
+/*This styles the top heading with respect to the background image */
+.headerTitleSm{
+    position:absolute;
+    top:18%;
+    font-size:20px;
+}
+
+/*This styles the lower heading with respect to the background image */
+.headerTitleLg{
+    position:absolute;
+    top:20%;
+    font-size:100px;
+}
+
+.headerImg{
+    width:100%;
+    height:450px;
+    margin-top:80px;
+    object-fit:cover;
+}

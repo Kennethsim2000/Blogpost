@@ -1,0 +1,68 @@
+/*This contains the top segment. The overall container */
+
+.top{
+    width:100%;
+    height:50px;
+    background-color:white;
+    position:sticky; /*this is to ensure that topbar always remains at the top */
+    top:0;
+    display:flex; /*we want to place items in it */
+    align-items:center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/*This contains the respective parts of the top segment */
+.topLeft, .topRight {
+    flex:3; /*This determines the width of the element in the flexbox */
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+}
+
+.topCenter{
+    flex:6;
+}
+
+
+
+/*CSS for profile pic */
+.topImg{
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    object-fit: cover; /*<img> is resized to fit its container */
+
+}
+
+/*css for icons */
+.topIcon{
+    font-size:20px;
+    margin-right:10px;
+    color:#444;
+    cursor:pointer;
+}
+
+/*CSS for top list */
+.topList {
+    display:flex;
+    justify-content:center;
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+
+.listItem{
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+/*CSS for icon */
+.topSearchIcon {
+    font-size: 18px;
+    color: #666;
+    cursor: pointer;
+    margin-left: 15px;
+}

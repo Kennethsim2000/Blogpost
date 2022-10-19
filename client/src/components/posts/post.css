@@ -1,0 +1,65 @@
+/*Styles the overall container of a post */
+.post{
+    width:350px;
+    margin:25px 25px 40px 25px;
+}
+
+/*Styles the image of post */
+.postImg{
+    width:100%;
+    height:280px;
+    object-fit:cover;
+    border-radius:7px;
+}
+
+/*Centering information in post */
+.postInfo {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+/*Styles the category of the blog */
+.postCat {
+    font-family: "Varela Round", sans-serif;
+    font-size:11px;
+    color:#be9656;
+    line-height:20px;
+    margin-top:15px;
+    margin-right:10px;
+    cursor:pointer;
+}
+
+/*Styles the title of a post */
+.postTitle{
+    font-family:'Josefin Sans', sans-serif;
+    font-size:24px;
+    font-weight:700px;
+    margin-top:15px;
+    cursor:pointer;
+}
+
+/*Styles the date posted of a post */
+.postDate{
+    font-family:"Lora", serif;
+    font-style:italic;
+    font-size:13px;
+    color:#999;
+    margin-top:15px;
+}
+
+/*Styles post description */
+.postDesc{
+    font-family:"Varela Round", sans-serif;
+    font-size:14px;
+    color:#444;
+    line-height:24px;
+    margin-top:15px;
+    overflow-wrap:anywhere;
+    /* overflow:hidden;
+    text-overflow:ellipsis;
+    display:-webkit-box;
+    -webkit-line-clamp:4;
+    -webkit-box-orient:vertical; */
+}
+
